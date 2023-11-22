@@ -171,19 +171,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Raven\\.nuget\\packages\\": {}
+    "C:\\Users\\Rog Strix\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Raven\\Downloads\\OOP10-Diner-Kiosk-master\\OOP10-Diner-Kiosk-master\\ClientApp\\ClientApp.csproj",
+      "projectUniqueName": "C:\\Users\\Rog Strix\\Source\\Repos\\DinnerKiosk2\\ClientApp\\ClientApp.csproj",
       "projectName": "ClientApp",
-      "projectPath": "C:\\Users\\Raven\\Downloads\\OOP10-Diner-Kiosk-master\\OOP10-Diner-Kiosk-master\\ClientApp\\ClientApp.csproj",
-      "packagesPath": "C:\\Users\\Raven\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Raven\\Downloads\\OOP10-Diner-Kiosk-master\\OOP10-Diner-Kiosk-master\\ClientApp\\obj\\",
+      "projectPath": "C:\\Users\\Rog Strix\\Source\\Repos\\DinnerKiosk2\\ClientApp\\ClientApp.csproj",
+      "packagesPath": "C:\\Users\\Rog Strix\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rog Strix\\Source\\Repos\\DinnerKiosk2\\ClientApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Raven\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Rog Strix\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -237,7 +237,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
