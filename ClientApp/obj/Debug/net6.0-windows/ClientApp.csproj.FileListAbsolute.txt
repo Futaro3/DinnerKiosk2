@@ -46,3 +46,30 @@ C:\Users\Raven\Downloads\OOP10-Diner-Kiosk-master\OOP10-Diner-Kiosk-master\Clien
 C:\Users\Raven\Downloads\OOP10-Diner-Kiosk-master\OOP10-Diner-Kiosk-master\ClientApp\obj\Debug\net6.0-windows\ClientApp.csproj.CopyComplete
 C:\Users\Raven\Downloads\OOP10-Diner-Kiosk-master\OOP10-Diner-Kiosk-master\ClientApp\obj\Debug\net6.0-windows\ClientApp.genruntimeconfig.cache
 C:\Users\Raven\Downloads\OOP10-Diner-Kiosk-master\OOP10-Diner-Kiosk-master\ClientApp\obj\Debug\net6.0-windows\ref\ClientApp.dll
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\bin\Debug\net6.0-windows\ClientApp.exe
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\bin\Debug\net6.0-windows\ClientApp.deps.json
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\bin\Debug\net6.0-windows\ClientApp.runtimeconfig.json
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\bin\Debug\net6.0-windows\ClientApp.dll
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\bin\Debug\net6.0-windows\ClientApp.pdb
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\bin\Debug\net6.0-windows\Guna.UI2.dll
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\bin\Debug\net6.0-windows\MaterialSkin.dll
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\bin\Debug\net6.0-windows\System.Management.dll
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.csproj.AssemblyReference.cache
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.Form1.resources
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.Form2.resources
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.Properties.Resources.resources
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.csproj.GenerateResource.cache
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.AssemblyInfoInputs.cache
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.AssemblyInfo.cs
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.csproj.CoreCompileInputs.cache
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.sourcelink.json
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.csproj.CopyComplete
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.dll
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\refint\ClientApp.dll
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.pdb
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.genruntimeconfig.cache
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ref\ClientApp.dll
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.Splash_Screen.resources
+C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.Closing_Screen.resources

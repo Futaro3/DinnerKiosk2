@@ -213,7 +213,9 @@ namespace ClientApp
 
         private void guna2CircleButton7_Click_2(object sender, EventArgs e)
         {
-            Application.Exit();
+            Closing_Screen closing_screen = new Closing_Screen();
+            closing_screen.Show();
+            this.Hide();
         }
     }
 }
