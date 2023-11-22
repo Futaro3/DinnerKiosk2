@@ -217,5 +217,16 @@ namespace ClientApp
             closing_screen.Show();
             this.Hide();
         }
+
+        private void label80_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aboutUsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 f3 = new Form3();
+            f3.ShowDialog();
+        }
     }
 }

@@ -73,3 +73,6 @@ C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\
 C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ref\ClientApp.dll
 C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.Splash_Screen.resources
 C:\Users\Rog Strix\Source\Repos\DinnerKiosk2\ClientApp\obj\Debug\net6.0-windows\ClientApp.Closing_Screen.resources
+C:\Users\Raven\Downloads\OOP10-Diner-Kiosk-master\OOP10-Diner-Kiosk-master\ClientApp\obj\Debug\net6.0-windows\ClientApp.Closing_Screen.resources
+C:\Users\Raven\Downloads\OOP10-Diner-Kiosk-master\OOP10-Diner-Kiosk-master\ClientApp\obj\Debug\net6.0-windows\ClientApp.Splash_Screen.resources
+C:\Users\Raven\Downloads\OOP10-Diner-Kiosk-master\OOP10-Diner-Kiosk-master\ClientApp\obj\Debug\net6.0-windows\ClientApp.Form3.resources

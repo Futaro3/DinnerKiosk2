@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Closing_Screen));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             pictureBox1 = new PictureBox();
@@ -41,20 +40,23 @@
             // pictureBox1
             // 
             pictureBox1.Dock = DockStyle.Fill;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Image = Properties.Resources.closingscreen;
             pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Margin = new Padding(4, 5, 4, 5);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(476, 358);
+            pictureBox1.Size = new Size(680, 597);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
             // guna2ProgressBar1
             // 
             guna2ProgressBar1.CustomizableEdges = customizableEdges1;
-            guna2ProgressBar1.Location = new Point(0, 353);
+            guna2ProgressBar1.Location = new Point(0, 588);
+            guna2ProgressBar1.Margin = new Padding(4, 5, 4, 5);
             guna2ProgressBar1.Name = "guna2ProgressBar1";
             guna2ProgressBar1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2ProgressBar1.Size = new Size(476, 5);
+            guna2ProgressBar1.Size = new Size(680, 8);
             guna2ProgressBar1.Style = ProgressBarStyle.Continuous;
             guna2ProgressBar1.TabIndex = 1;
             guna2ProgressBar1.Text = "guna2ProgressBar1";
@@ -67,12 +69,13 @@
             // 
             // Closing_Screen
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(476, 358);
+            ClientSize = new Size(680, 597);
             Controls.Add(guna2ProgressBar1);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Closing_Screen";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Closing_Screen";

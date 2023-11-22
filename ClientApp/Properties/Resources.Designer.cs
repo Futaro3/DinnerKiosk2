@@ -233,6 +233,16 @@ namespace ClientApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap closingscreen {
+            get {
+                object obj = ResourceManager.GetObject("closingscreen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap coffee {
             get {
                 object obj = ResourceManager.GetObject("coffee", resourceCulture);
@@ -445,6 +455,16 @@ namespace ClientApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap splashscreen {
+            get {
+                object obj = ResourceManager.GetObject("splashscreen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tea {
             get {
                 object obj = ResourceManager.GetObject("tea", resourceCulture);
@@ -478,6 +498,16 @@ namespace ClientApp.Properties {
         internal static System.Drawing.Bitmap veggie {
             get {
                 object obj = ResourceManager.GetObject("veggie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Yellow_and_Pink_Modern_Business_Website_About_Us_Page_Desktop_Prototype {
+            get {
+                object obj = ResourceManager.GetObject("Yellow and Pink Modern Business Website About Us Page Desktop Prototype", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

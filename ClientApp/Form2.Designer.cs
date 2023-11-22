@@ -107,6 +107,7 @@
             fileToolStripMenuItem = new ToolStripMenuItem();
             editToolStripMenuItem = new ToolStripMenuItem();
             helpToolStripMenuItem = new ToolStripMenuItem();
+            aboutUsToolStripMenuItem = new ToolStripMenuItem();
             MainTabPane = new Guna.UI2.WinForms.Guna2TabControl();
             Home = new TabPage();
             button1 = new Button();
@@ -120,6 +121,7 @@
             label84 = new Label();
             panel23 = new Panel();
             Order = new TabPage();
+            label81 = new Label();
             label80 = new Label();
             myCart = new Panel();
             guna2CircleButton6 = new Guna.UI2.WinForms.Guna2CircleButton();
@@ -308,6 +310,10 @@
             pictureBox35 = new PictureBox();
             pictureBox37 = new PictureBox();
             pictureBox41 = new PictureBox();
+            panel18 = new Panel();
+            panel19 = new Panel();
+            panel20 = new Panel();
+            panel21 = new Panel();
             About = new TabPage();
             guna2CircleButton37 = new Guna.UI2.WinForms.Guna2CircleButton();
             guna2CircleButton18 = new Guna.UI2.WinForms.Guna2CircleButton();
@@ -459,11 +465,21 @@
             // 
             // helpToolStripMenuItem
             // 
+            helpToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { aboutUsToolStripMenuItem });
             helpToolStripMenuItem.Font = new Font("Palatino Linotype", 11F, FontStyle.Regular, GraphicsUnit.Point);
             helpToolStripMenuItem.ForeColor = SystemColors.ControlLightLight;
             helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             helpToolStripMenuItem.Size = new Size(78, 33);
             helpToolStripMenuItem.Text = "&Help";
+            // 
+            // aboutUsToolStripMenuItem
+            // 
+            aboutUsToolStripMenuItem.BackColor = Color.FromArgb(17, 17, 17);
+            aboutUsToolStripMenuItem.ForeColor = SystemColors.ControlLightLight;
+            aboutUsToolStripMenuItem.Name = "aboutUsToolStripMenuItem";
+            aboutUsToolStripMenuItem.Size = new Size(210, 38);
+            aboutUsToolStripMenuItem.Text = "&About Us";
+            aboutUsToolStripMenuItem.Click += aboutUsToolStripMenuItem_Click;
             // 
             // MainTabPane
             // 
@@ -710,6 +726,7 @@
             Order.BackColor = Color.FromArgb(31, 31, 31);
             Order.BackgroundImage = Properties.Resources.BG2;
             Order.BackgroundImageLayout = ImageLayout.Stretch;
+            Order.Controls.Add(label81);
             Order.Controls.Add(label80);
             Order.Controls.Add(myCart);
             Order.Controls.Add(guna2CircleButton6);
@@ -722,6 +739,7 @@
             Order.Controls.Add(label25);
             Order.Controls.Add(pictureBox1);
             Order.Controls.Add(guna2TabControl4);
+            Order.Font = new Font("Palatino Linotype", 10F, FontStyle.Regular, GraphicsUnit.Point);
             Order.Location = new Point(5, 4);
             Order.Margin = new Padding(2);
             Order.Name = "Order";
@@ -731,26 +749,43 @@
             Order.Text = "Order";
             Order.Click += Order_Click;
             // 
+            // label81
+            // 
+            label81.AutoSize = true;
+            label81.BackColor = Color.FromArgb(31, 31, 31);
+            label81.Font = new Font("Palatino Linotype", 13F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            label81.ForeColor = SystemColors.ControlLightLight;
+            label81.Location = new Point(404, 26);
+            label81.Margin = new Padding(2, 0, 2, 0);
+            label81.Name = "label81";
+            label81.Size = new Size(489, 34);
+            label81.TabIndex = 14;
+            label81.Text = "Where every bite tells a delicious story.\"";
+            label81.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // label80
             // 
             label80.AutoSize = true;
             label80.BackColor = Color.FromArgb(31, 31, 31);
-            label80.Font = new Font("Palatino Linotype", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label80.ForeColor = SystemColors.ControlLightLight;
-            label80.Location = new Point(181, 19);
+            label80.Font = new Font("Palatino Linotype", 13F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            label80.ForeColor = Color.FromArgb(255, 152, 1);
+            label80.Location = new Point(172, 26);
             label80.Margin = new Padding(2, 0, 2, 0);
             label80.Name = "label80";
-            label80.Size = new Size(130, 49);
+            label80.Size = new Size(243, 34);
             label80.TabIndex = 13;
-            label80.Text = "Hello, ";
+            label80.Text = "\"Savor the moment:\r\n";
             label80.TextAlign = ContentAlignment.MiddleCenter;
+            label80.Click += label80_Click;
             // 
             // myCart
             // 
-            myCart.Location = new Point(950, 176);
+            myCart.BackColor = Color.FromArgb(59, 59, 59);
+            myCart.ForeColor = SystemColors.ControlLightLight;
+            myCart.Location = new Point(943, 167);
             myCart.Margin = new Padding(4);
             myCart.Name = "myCart";
-            myCart.Size = new Size(388, 351);
+            myCart.Size = new Size(409, 368);
             myCart.TabIndex = 12;
             // 
             // guna2CircleButton6
@@ -2665,7 +2700,7 @@
             // checkBox15
             // 
             checkBox15.AutoSize = true;
-            checkBox15.Location = new Point(321, 188);
+            checkBox15.Location = new Point(321, 186);
             checkBox15.Margin = new Padding(2);
             checkBox15.Name = "checkBox15";
             checkBox15.Size = new Size(22, 21);
@@ -2744,7 +2779,7 @@
             label58.AutoSize = true;
             label58.Font = new Font("Palatino Linotype", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label58.ForeColor = SystemColors.ControlLightLight;
-            label58.Location = new Point(212, 45);
+            label58.Location = new Point(223, 45);
             label58.Margin = new Padding(2, 0, 2, 0);
             label58.Name = "label58";
             label58.Size = new Size(72, 32);
@@ -2861,7 +2896,7 @@
             label54.AutoSize = true;
             label54.Font = new Font("Palatino Linotype", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label54.ForeColor = SystemColors.ControlLightLight;
-            label54.Location = new Point(202, 45);
+            label54.Location = new Point(201, 45);
             label54.Margin = new Padding(2, 0, 2, 0);
             label54.Name = "label54";
             label54.Size = new Size(117, 32);
@@ -2910,6 +2945,10 @@
             Desserts.Controls.Add(pictureBox35);
             Desserts.Controls.Add(pictureBox37);
             Desserts.Controls.Add(pictureBox41);
+            Desserts.Controls.Add(panel18);
+            Desserts.Controls.Add(panel19);
+            Desserts.Controls.Add(panel20);
+            Desserts.Controls.Add(panel21);
             Desserts.Location = new Point(4, 44);
             Desserts.Margin = new Padding(2);
             Desserts.Name = "Desserts";
@@ -2976,7 +3015,7 @@
             label69.AutoSize = true;
             label69.Font = new Font("Palatino Linotype", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label69.ForeColor = SystemColors.ControlLightLight;
-            label69.Location = new Point(609, 291);
+            label69.Location = new Point(609, 306);
             label69.Margin = new Padding(2, 0, 2, 0);
             label69.Name = "label69";
             label69.Size = new Size(74, 32);
@@ -3265,6 +3304,42 @@
             pictureBox41.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox41.TabIndex = 0;
             pictureBox41.TabStop = false;
+            // 
+            // panel18
+            // 
+            panel18.BorderStyle = BorderStyle.Fixed3D;
+            panel18.Location = new Point(11, 5);
+            panel18.Margin = new Padding(2);
+            panel18.Name = "panel18";
+            panel18.Size = new Size(176, 466);
+            panel18.TabIndex = 46;
+            // 
+            // panel19
+            // 
+            panel19.BorderStyle = BorderStyle.Fixed3D;
+            panel19.Location = new Point(193, 6);
+            panel19.Margin = new Padding(2);
+            panel19.Name = "panel19";
+            panel19.Size = new Size(176, 466);
+            panel19.TabIndex = 47;
+            // 
+            // panel20
+            // 
+            panel20.BorderStyle = BorderStyle.Fixed3D;
+            panel20.Location = new Point(373, 5);
+            panel20.Margin = new Padding(2);
+            panel20.Name = "panel20";
+            panel20.Size = new Size(176, 466);
+            panel20.TabIndex = 47;
+            // 
+            // panel21
+            // 
+            panel21.BorderStyle = BorderStyle.Fixed3D;
+            panel21.Location = new Point(553, 5);
+            panel21.Margin = new Padding(2);
+            panel21.Name = "panel21";
+            panel21.Size = new Size(176, 466);
+            panel21.TabIndex = 47;
             // 
             // About
             // 
@@ -4458,5 +4533,11 @@
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton37;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton38;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton39;
+        private ToolStripMenuItem aboutUsToolStripMenuItem;
+        private Label label81;
+        private Panel panel18;
+        private Panel panel19;
+        private Panel panel20;
+        private Panel panel21;
     }
 }

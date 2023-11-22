@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "z+ZlLd7FrrbBQxf9rgsHonTxgUEgpDikzWiMp3pxlUOWP+cnh+0kkQteFoJFDbn2izDDzDWqyoQ702Nm+/r88w==",
+  "dgSpecHash": "aIsVYyeEVzpfKOgNTAvz43+OUNu/2N5LFh5S3EG4fRmqCthTPQQb5qWOGNtfVqJvz7WdcQjjaYXfaa0cu0UmkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rog Strix\\Source\\Repos\\DinnerKiosk2\\ClientApp\\ClientApp.csproj",
+  "projectFilePath": "C:\\Users\\Raven\\Downloads\\OOP10-Diner-Kiosk-master\\OOP10-Diner-Kiosk-master\\ClientApp\\ClientApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Rog Strix\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.5\\guna.ui2.winforms.2.0.4.5.nupkg.sha512",
-    "C:\\Users\\Rog Strix\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512",
-    "C:\\Users\\Rog Strix\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
-    "C:\\Users\\Rog Strix\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+    "C:\\Users\\Raven\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.5\\guna.ui2.winforms.2.0.4.5.nupkg.sha512",
+    "C:\\Users\\Raven\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512",
+    "C:\\Users\\Raven\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\Raven\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

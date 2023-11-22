@@ -29,9 +29,8 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Splash_Screen));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             pictureBox1 = new PictureBox();
             guna2ProgressBar1 = new Guna.UI2.WinForms.Guna2ProgressBar();
             timer1 = new System.Windows.Forms.Timer(components);
@@ -40,21 +39,23 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Dock = DockStyle.Fill;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Image = Properties.Resources.splashscreen;
             pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Margin = new Padding(4, 5, 4, 5);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(675, 464);
+            pictureBox1.Size = new Size(964, 773);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
             // guna2ProgressBar1
             // 
-            guna2ProgressBar1.CustomizableEdges = customizableEdges3;
-            guna2ProgressBar1.Location = new Point(0, 459);
+            guna2ProgressBar1.CustomizableEdges = customizableEdges1;
+            guna2ProgressBar1.Location = new Point(0, 765);
+            guna2ProgressBar1.Margin = new Padding(4, 5, 4, 5);
             guna2ProgressBar1.Name = "guna2ProgressBar1";
-            guna2ProgressBar1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2ProgressBar1.Size = new Size(675, 5);
+            guna2ProgressBar1.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2ProgressBar1.Size = new Size(964, 8);
             guna2ProgressBar1.Style = ProgressBarStyle.Continuous;
             guna2ProgressBar1.TabIndex = 1;
             guna2ProgressBar1.Text = "guna2ProgressBar1";
@@ -67,12 +68,13 @@
             // 
             // Splash_Screen
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(675, 464);
+            ClientSize = new Size(964, 773);
             Controls.Add(guna2ProgressBar1);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Splash_Screen";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Splash_Screen";
