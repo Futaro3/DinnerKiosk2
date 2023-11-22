@@ -184,5 +184,31 @@ namespace ClientApp
         {
 
         }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+            AddToPanel("Chicken Salad", 5.00);
+        }
+
+        private void AddToPanel(string name, double price)
+        {
+            Panel itemPanel = new Panel();
+            itemPanel.Size = new Size(284, 122);
+            itemPanel.Dock = DockStyle.Top;
+
+            Label itemLabel = new Label();
+            itemLabel.Text = name;
+            itemLabel.AutoSize = true;
+            itemLabel.ForeColor = Color.White;
+
+            NumericUpDown quantity = new NumericUpDown();
+            quantity.Value = 1;
+            quantity.Dock = DockStyle.Right;
+
+            itemPanel.Controls.Add(itemLabel);
+            itemPanel.Controls.Add(quantity);
+
+            myCart.Controls.Add(itemPanel);
+        }
     }
 }
