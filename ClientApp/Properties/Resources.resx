@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="carbonara 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\carbonara 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lemonade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lemonade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imageedit_2_9977360211" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageedit_2_9977360211.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,11 +130,14 @@
   <data name="SEAFOOD MARINARA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SEAFOOD MARINARA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="roast beef" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\roast beef.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CARBONARA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CARBONARA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PESTO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PESTO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,17 +145,17 @@
   <data name="BG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BG1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="salad" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\salad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="tuna" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tuna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dark Green Modern Smart Home Dashboard Desktop Prototype (1433 x 1010 px) (1411 x 954 mm)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dark Green Modern Smart Home Dashboard Desktop Prototype (1433 x 1010 px) (1411 x 954 mm).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="turkey" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\turkey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Dark Green Modern Smart Home Dashboard Desktop Prototype (1433 x 1010 px) (1411 x 954 mm)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dark Green Modern Smart Home Dashboard Desktop Prototype (1433 x 1010 px) (1411 x 954 mm).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fruit salad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fruit salad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="veggie" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\veggie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,14 +166,11 @@
   <data name="chocolate cookie" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chocolate cookie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="coke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\coke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="salad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imageedit_7_7451957228" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageedit_7_7451957228.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,6 +184,9 @@
   <data name="halo halo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\halo halo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="coke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -193,8 +196,14 @@
   <data name="imageedit_9_2324834578" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageedit_9_2324834578.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lemonade" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lemonade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Dark Green Modern Smart Home Dashboard Desktop Prototype (1433 x 1010 px) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dark Green Modern Smart Home Dashboard Desktop Prototype (1433 x 1010 px) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spaghetti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spaghetti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carbonara 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carbonara 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,11 +211,17 @@
   <data name="coffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\coffee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Dark Green Modern Smart Home Dashboard Desktop Prototype (1433 x 1010 px) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dark Green Modern Smart Home Dashboard Desktop Prototype (1433 x 1010 px) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="spaghetti" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\spaghetti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="roast beef" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\roast beef.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dark Green Modern Smart Home Dashboard Desktop Prototype (1433 x 1010 px) (1411 x 958 mm)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dark Green Modern Smart Home Dashboard Desktop Prototype (1433 x 1010 px) (1411 x 958 mm).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="he" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\he.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="chicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chicken.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,13 +235,13 @@
   <data name="BG" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="he" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\he.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="juice" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\juice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fruit salad" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fruit salad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

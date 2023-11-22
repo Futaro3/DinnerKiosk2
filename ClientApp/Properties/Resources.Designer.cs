@@ -83,9 +83,29 @@ namespace ClientApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _21 {
+            get {
+                object obj = ResourceManager.GetObject("21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _3 {
             get {
                 object obj = ResourceManager.GetObject("3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _31 {
+            get {
+                object obj = ResourceManager.GetObject("31", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +123,29 @@ namespace ClientApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _41 {
+            get {
+                object obj = ResourceManager.GetObject("41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _5 {
             get {
                 object obj = ResourceManager.GetObject("5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _51 {
+            get {
+                object obj = ResourceManager.GetObject("51", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -227,6 +267,17 @@ namespace ClientApp.Properties {
             get {
                 object obj = ResourceManager.GetObject("Dark Green Modern Smart Home Dashboard Desktop Prototype (1433 x 1010 px) (1411 x" +
                         " 954 mm)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Dark_Green_Modern_Smart_Home_Dashboard_Desktop_Prototype__1433_x_1010_px___1411_x_958_mm_ {
+            get {
+                object obj = ResourceManager.GetObject("Dark Green Modern Smart Home Dashboard Desktop Prototype (1433 x 1010 px) (1411 x" +
+                        " 958 mm)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marc Velasquez\\Downloads\\DinnerKiosk2-master\\DinnerKiosk2-master\\ClientApp\\ClientApp.csproj": {}
+    "C:\\Users\\Raven\\Downloads\\OOP10-Diner-Kiosk-master\\OOP10-Diner-Kiosk-master\\ClientApp\\ClientApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marc Velasquez\\Downloads\\DinnerKiosk2-master\\DinnerKiosk2-master\\ClientApp\\ClientApp.csproj": {
+    "C:\\Users\\Raven\\Downloads\\OOP10-Diner-Kiosk-master\\OOP10-Diner-Kiosk-master\\ClientApp\\ClientApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marc Velasquez\\Downloads\\DinnerKiosk2-master\\DinnerKiosk2-master\\ClientApp\\ClientApp.csproj",
+        "projectUniqueName": "C:\\Users\\Raven\\Downloads\\OOP10-Diner-Kiosk-master\\OOP10-Diner-Kiosk-master\\ClientApp\\ClientApp.csproj",
         "projectName": "ClientApp",
-        "projectPath": "C:\\Users\\Marc Velasquez\\Downloads\\DinnerKiosk2-master\\DinnerKiosk2-master\\ClientApp\\ClientApp.csproj",
-        "packagesPath": "C:\\Users\\Marc Velasquez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marc Velasquez\\Downloads\\DinnerKiosk2-master\\DinnerKiosk2-master\\ClientApp\\obj\\",
+        "projectPath": "C:\\Users\\Raven\\Downloads\\OOP10-Diner-Kiosk-master\\OOP10-Diner-Kiosk-master\\ClientApp\\ClientApp.csproj",
+        "packagesPath": "C:\\Users\\Raven\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Raven\\Downloads\\OOP10-Diner-Kiosk-master\\OOP10-Diner-Kiosk-master\\ClientApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Marc Velasquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Raven\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

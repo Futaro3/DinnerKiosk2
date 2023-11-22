@@ -210,5 +210,10 @@ namespace ClientApp
 
             myCart.Controls.Add(itemPanel);
         }
+
+        private void guna2CircleButton7_Click_2(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
