@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+lVHy4+NcPORXLcLYUmQF6DRkLvbW4HHWHBgIc7DtrWEo/Y3HpFfW0GKqp1K8FBSj6gZSIgrlH5Uyyq5du5S+w==",
+  "dgSpecHash": "rww/KAzXWF9w+mpput31CnSlbRIBXaa0UMcCC04PAwqI+yK2IsdXF92ttfbpKWA4vcl9q3fYw6DVvjoSEwFnmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rog Strix\\source\\repos\\DinnerKiosk2\\ClientApp\\ClientApp.csproj",
+  "projectFilePath": "C:\\Users\\Marc Velasquez\\source\\alt\\DinnerKiosk2\\ClientApp\\ClientApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Rog Strix\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.5\\guna.ui2.winforms.2.0.4.5.nupkg.sha512",
-    "C:\\Users\\Rog Strix\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512",
-    "C:\\Users\\Rog Strix\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
-    "C:\\Users\\Rog Strix\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+    "C:\\Users\\Marc Velasquez\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.5\\guna.ui2.winforms.2.0.4.5.nupkg.sha512",
+    "C:\\Users\\Marc Velasquez\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512",
+    "C:\\Users\\Marc Velasquez\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\Marc Velasquez\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

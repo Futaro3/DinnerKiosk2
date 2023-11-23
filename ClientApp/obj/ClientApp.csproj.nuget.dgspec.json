@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rog Strix\\source\\repos\\DinnerKiosk2\\ClientApp\\ClientApp.csproj": {}
+    "C:\\Users\\Marc Velasquez\\source\\alt\\DinnerKiosk2\\ClientApp\\ClientApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rog Strix\\source\\repos\\DinnerKiosk2\\ClientApp\\ClientApp.csproj": {
+    "C:\\Users\\Marc Velasquez\\source\\alt\\DinnerKiosk2\\ClientApp\\ClientApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rog Strix\\source\\repos\\DinnerKiosk2\\ClientApp\\ClientApp.csproj",
+        "projectUniqueName": "C:\\Users\\Marc Velasquez\\source\\alt\\DinnerKiosk2\\ClientApp\\ClientApp.csproj",
         "projectName": "ClientApp",
-        "projectPath": "C:\\Users\\Rog Strix\\source\\repos\\DinnerKiosk2\\ClientApp\\ClientApp.csproj",
-        "packagesPath": "C:\\Users\\Rog Strix\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rog Strix\\source\\repos\\DinnerKiosk2\\ClientApp\\obj\\",
+        "projectPath": "C:\\Users\\Marc Velasquez\\source\\alt\\DinnerKiosk2\\ClientApp\\ClientApp.csproj",
+        "packagesPath": "C:\\Users\\Marc Velasquez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marc Velasquez\\source\\alt\\DinnerKiosk2\\ClientApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Rog Strix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marc Velasquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

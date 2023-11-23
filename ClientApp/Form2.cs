@@ -14,6 +14,7 @@ namespace ClientApp
 {
     public partial class Form2 : Form
     {
+        List<string> favorites = new List<string>();
         public Form2()
         {
             InitializeComponent();
@@ -79,6 +80,7 @@ namespace ClientApp
 
         private void guna2CircleButton3_Click(object sender, EventArgs e)
         {
+            RenderFavorites();
             MainTabPane.SelectedTab = Favorites;
         }
 
@@ -164,21 +166,25 @@ namespace ClientApp
         private void guna2GradientButton13_Click(object sender, EventArgs e)
         {
             AddOrUpdateItem("Spaghetti", 1, 1.75);
+            AddToCart("Spaghetti");
         }
 
         private void guna2GradientButton14_Click(object sender, EventArgs e)
         {
             AddOrUpdateItem("Pesto", 1, 1.75);
+            AddToCart("Pesto");
         }
 
         private void guna2GradientButton15_Click(object sender, EventArgs e)
         {
             AddOrUpdateItem("Carbonara", 1, 1.75);
+            AddToCart("Carbonara");
         }
 
         private void guna2GradientButton16_Click(object sender, EventArgs e)
         {
             AddOrUpdateItem("Seafood Marinara", 1, 1.75);
+            AddToCart("Seafood Marinara");
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -190,11 +196,14 @@ namespace ClientApp
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            // My Cart
-            AddToPanel("Chicken Salad", 5.00);
-
             // Order Summary
             AddOrUpdateItem("Chicken Salad", 1, 5.00);
+            AddToCart("Chicken Salad");
+        }
+
+        private void AddToCart(string name)
+        {
+            myCart.Text += name + "\n";
         }
 
         private void AddOrUpdateItem(string itemName, int quantity, double cost)
@@ -387,56 +396,67 @@ namespace ClientApp
         private void guna2GradientButton5_Click(object sender, EventArgs e)
         {
             AddOrUpdateItem("Ham and Cheese", 1, 4.50);
+            AddToCart("Ham and Cheese");
         }
 
         private void guna2GradientButton6_Click(object sender, EventArgs e)
         {
             AddOrUpdateItem("Turkey", 1, 4.50);
+            AddToCart("Turkey");
         }
 
         private void guna2GradientButton3_Click(object sender, EventArgs e)
         {
             AddOrUpdateItem("Vegetable Wrap", 1, 3.50);
+            AddToCart("Vegetable Wrap");
         }
 
         private void guna2GradientButton4_Click(object sender, EventArgs e)
         {
             AddOrUpdateItem("Tuna Salad", 1, 4.00);
+            AddToCart("Tuna Salad");
         }
 
         private void guna2GradientButton2_Click(object sender, EventArgs e)
         {
             AddOrUpdateItem("Roast Beef", 1, 4.75);
+            AddToCart("Roast Beef");
         }
 
         private void guna2GradientButton7_Click(object sender, EventArgs e)
         {
             AddOrUpdateItem("Orange", 1, 1.75);
+            AddToCart("Orange");
         }
 
         private void guna2GradientButton11_Click(object sender, EventArgs e)
         {
             AddOrUpdateItem("Soda", 1, 2.00);
+            AddToCart("Soda");
         }
 
         private void guna2GradientButton12_Click(object sender, EventArgs e)
         {
             AddOrUpdateItem("Tea", 1, 1.50);
+            AddToCart("Tea");
         }
 
         private void guna2GradientButton9_Click(object sender, EventArgs e)
         {
             AddOrUpdateItem("Coffee", 1, 1.50);
+            AddToCart("Coffee");
         }
 
         private void guna2GradientButton10_Click(object sender, EventArgs e)
         {
             AddOrUpdateItem("Lemonade", 1, 2.00);
+            AddToCart("Lemonade");
         }
 
         private void guna2GradientButton8_Click(object sender, EventArgs e)
         {
             AddOrUpdateItem("Bottled Water", 1, 0.00);
+            AddToCart("Bottled Water");
         }
 
         private void btnClear_Click_1(object sender, EventArgs e)
@@ -446,6 +466,7 @@ namespace ClientApp
 
         void clearAll()
         {
+            myCart.Clear();
             materialMultiLineTextBox1.Clear();
             itemsAndQuantities.Clear();
 
@@ -461,7 +482,7 @@ namespace ClientApp
         {
             string selectedDesertName = GetSelectedDesertName();
 
-            
+
 
             if (!string.IsNullOrEmpty(selectedDesertName))
             {
@@ -559,7 +580,219 @@ namespace ClientApp
             {
                 return 1.25;
             }
-            return 0.00; 
+            return 0.00;
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                AddFavorites("Chicken Salad");
+            }
+            else if (checkBox1.Checked == false)
+            {
+                RemoveFavorites("Chicken Salad");
+            }
+        }
+
+        private void AddFavorites(string v)
+        {
+            favorites.Add(v);
+        }
+
+        private void RemoveFavorites(string item)
+        {
+            favorites.Remove(item);
+        }
+
+        private void RenderFavorites()
+        {
+            favoritesHere.Text = string.Empty;
+
+            foreach (string favorite in favorites)
+            {
+                favoritesHere.Text += favorite + "\n";
+            }
+        }
+
+        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox4.Checked == true)
+            {
+                AddFavorites("Ham and Cheese");
+            }
+            else if (checkBox4.Checked == false)
+            {
+                RemoveFavorites("Ham and Cheese");
+            }
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked == true)
+            {
+                AddFavorites("Turkey");
+            }
+            else if (checkBox2.Checked == false)
+            {
+                RemoveFavorites("Turkey");
+            }
+        }
+
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox5.Checked == true)
+            {
+                AddFavorites("Vegetable Wrap");
+            }
+            else if (checkBox5.Checked == false)
+            {
+                RemoveFavorites("Vegetable Wrap");
+            }
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox3.Checked == true)
+            {
+                AddFavorites("Tuna Salad");
+            }
+            else if (checkBox3.Checked == false)
+            {
+                RemoveFavorites("Tuna Salad");
+            }
+        }
+
+        private void checkBox6_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox6.Checked == true)
+            {
+                AddFavorites("Roast Beef");
+            }
+            else if (checkBox6.Checked == false)
+            {
+                RemoveFavorites("Roast Beef");
+            }
+        }
+
+        private void checkBox7_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox7.Checked == true)
+            {
+                AddFavorites("Orange");
+            }
+            else if (checkBox7.Checked == false)
+            {
+                RemoveFavorites("Orange");
+            }
+        }
+
+        private void checkBox10_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox10.Checked == true)
+            {
+                AddFavorites("Soda");
+            }
+            else if (checkBox10.Checked == false)
+            {
+                RemoveFavorites("Soda");
+            }
+        }
+
+        private void checkBox8_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox8.Checked == true)
+            {
+                AddFavorites("Tea");
+            }
+            else if (checkBox8.Checked == false)
+            {
+                RemoveFavorites("Tea");
+            }
+        }
+
+        private void checkBox11_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox11.Checked == true)
+            {
+                AddFavorites("Coffee");
+            }
+            else if (checkBox11.Checked == false)
+            {
+                RemoveFavorites("Coffee");
+            }
+        }
+
+        private void checkBox9_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox11.Checked == true)
+            {
+                AddFavorites("Lemonade");
+            }
+            else if (checkBox11.Checked == false)
+            {
+                RemoveFavorites("Lemonade");
+            }
+        }
+
+        private void checkBox12_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox12.Checked == true)
+            {
+                AddFavorites("Bottled Water");
+            }
+            else if (checkBox12.Checked == false)
+            {
+                RemoveFavorites("Bottled Water");
+            }
+        }
+
+        private void checkBox13_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox13.Checked == true)
+            {
+                AddFavorites("Spaghetti");
+            }
+            else if (checkBox13.Checked == false)
+            {
+                RemoveFavorites("Spaghetti");
+            }
+        }
+
+        private void checkBox15_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox15.Checked == true)
+            {
+                AddFavorites("Pesto");
+            }
+            else if (checkBox15.Checked == false)
+            {
+                RemoveFavorites("Pesto");
+            }
+        }
+
+        private void checkBox14_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox14.Checked == true)
+            {
+                AddFavorites("Carbonara");
+            }
+            else if (checkBox14.Checked == false)
+            {
+                RemoveFavorites("Carbonara");
+            }
+        }
+
+        private void checkBox16_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox16.Checked == true)
+            {
+                AddFavorites("Seafood Marinara");
+            }
+            else if (checkBox16.Checked== false)
+            {
+                RemoveFavorites("Seafood Marinara");
+            }
         }
     }
 }
