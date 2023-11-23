@@ -222,7 +222,7 @@ namespace ClientApp
 
         private void UpdateTextBox()
         {
-            materialMultiLineTextBox1.Clear();
+            textBox1.Clear();
 
             foreach (var item in itemsAndQuantities)
             {
@@ -233,12 +233,12 @@ namespace ClientApp
                 if (itemName != "Tea")
                 {
                     string formattedText = $"{itemName.PadRight(20)}\t{quantity.ToString().PadRight(10)}\t${(quantity * cost).ToString()}";
-                    materialMultiLineTextBox1.AppendText(formattedText + Environment.NewLine);
+                    textBox1.AppendText(formattedText + Environment.NewLine);
                 }
                 else
                 {
                     string formattedText = $"{itemName.PadRight(25)}\t{quantity.ToString().PadRight(10)}\t${(quantity * cost).ToString()}";
-                    materialMultiLineTextBox1.AppendText(formattedText + Environment.NewLine);
+                    textBox1.AppendText(formattedText + Environment.NewLine);
                 }
             }
         }
@@ -467,7 +467,7 @@ namespace ClientApp
         void clearAll()
         {
             myCart.Clear();
-            materialMultiLineTextBox1.Clear();
+            textBox1.Clear();
             itemsAndQuantities.Clear();
 
             lblTotal.Text = "$ 0.00";
@@ -488,14 +488,14 @@ namespace ClientApp
             {
                 AddOrUpdateItem(selectedDesertName, GetSelectedDesertQuantity(), GetSelectedDesertCost());
 
-                if (materialMultiLineTextBox1.Text.Trim() == "") // Empty Cart
+                if (textBox1.Text.Trim() == "") // Empty Cart
                 {
                     MessageBox.Show("Your cart is empty. Please add items before checking out.", "Empty Cart", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     return;
                 }
                 // Receipt MessageBox
                 string orderSummary = "Order Summary\n----------------------------------------------------------------------\n";
-                orderSummary += materialMultiLineTextBox1.Text.Trim() + "\n";
+                orderSummary += textBox1.Text.Trim() + "\n";
                 orderSummary += "----------------------------------------------------------------------\nTotal: " + lblTotal.Text;
 
                 MessageBox.Show(orderSummary, "Order Details", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -506,7 +506,7 @@ namespace ClientApp
             else
             {
                 string orderSummary = "Order Summary\n----------------------------------------------------------------------\n";
-                orderSummary += materialMultiLineTextBox1.Text.Trim() + "\n";
+                orderSummary += textBox1.Text.Trim() + "\n";
                 orderSummary += "----------------------------------------------------------------------\nTotal: " + lblTotal.Text;
 
                 MessageBox.Show(orderSummary, "Order Details", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -533,7 +533,7 @@ namespace ClientApp
             SolidBrush brush = new SolidBrush(Color.Black);
 
             RectangleF area = new RectangleF(e.MarginBounds.Left, e.MarginBounds.Top, e.MarginBounds.Width, e.MarginBounds.Height);
-            e.Graphics.DrawString(materialMultiLineTextBox1.Text, font, brush, area);
+            e.Graphics.DrawString(textBox1.Text, font, brush, area);
         }
 
         private string GetSelectedDesertName()
@@ -789,10 +789,15 @@ namespace ClientApp
             {
                 AddFavorites("Seafood Marinara");
             }
-            else if (checkBox16.Checked== false)
+            else if (checkBox16.Checked == false)
             {
                 RemoveFavorites("Seafood Marinara");
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
