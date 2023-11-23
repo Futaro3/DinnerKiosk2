@@ -482,7 +482,13 @@ namespace ClientApp
         {
             string selectedDesertName = GetSelectedDesertName();
 
+            Random random = new Random();
+            int orderNumber = random.Next(100000, 999999);
 
+            string restaurantName = "Food Hub";
+            string currentDate = DateTime.Now.ToString("MM/dd/yyyy");
+
+            string header = $"{restaurantName ,- 35}\n{currentDate ,- 35}\nOrder No# {orderNumber}\n";
 
             if (!string.IsNullOrEmpty(selectedDesertName))
             {
@@ -494,7 +500,7 @@ namespace ClientApp
                     return;
                 }
                 // Receipt MessageBox
-                string orderSummary = "Order Summary\n----------------------------------------------------------------------\n";
+                string orderSummary = $"{header}----------------------------------------------------------------------\nOrder Summary\n----------------------------------------------------------------------\n";
                 orderSummary += textBox1.Text.Trim() + "\n";
                 orderSummary += "----------------------------------------------------------------------\nTotal: " + lblTotal.Text;
 
@@ -505,7 +511,12 @@ namespace ClientApp
             }
             else
             {
-                string orderSummary = "Order Summary\n----------------------------------------------------------------------\n";
+                if (textBox1.Text.Trim() == "") // Empty Cart
+                {
+                    MessageBox.Show("Your cart is empty. Please add items before checking out.", "Empty Cart", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+                string orderSummary = $"{header}----------------------------------------------------------------------\nOrder Summary\n----------------------------------------------------------------------\n";
                 orderSummary += textBox1.Text.Trim() + "\n";
                 orderSummary += "----------------------------------------------------------------------\nTotal: " + lblTotal.Text;
 
@@ -518,22 +529,39 @@ namespace ClientApp
 
         void print()
         {
-            PrintPreviewDialog printPreviewDialog1 = new PrintPreviewDialog();
             PrintDocument printDocument1 = new PrintDocument();
-
             printDocument1.PrintPage += new PrintPageEventHandler(printDocument1_PrintPage);
 
+            PrintPreviewDialog printPreviewDialog1 = new PrintPreviewDialog();
             printPreviewDialog1.Document = printDocument1;
-            printPreviewDialog1.ShowDialog();
+
+            if (printPreviewDialog1.ShowDialog() == DialogResult.OK)
+            {
+                printDocument1.Print();
+            }
         }
 
         private void printDocument1_PrintPage(object sender, PrintPageEventArgs e)
         {
-            Font font = new Font("Arial", 12);
+            string restaurantName = "Food Hub";
+            string currentDate = DateTime.Now.ToString("MM/dd/yyyy");
+            Random random = new Random();
+            int orderNumber = random.Next(100000, 999999);
+
+            string header = $"{restaurantName,-35}\n{currentDate,-35}\nOrder No# {orderNumber}\n\n";
+
+            string orderSummary = $"{header}----------------------------------------------------------------------\nOrder Summary\n----------------------------------------------------------------------\n";
+            orderSummary += textBox1.Text.Trim() + "\n";
+            orderSummary += "----------------------------------------------------------------------\nTotal: " + lblTotal.Text;
+
+            Font printFont = new Font("Arial", 12);
             SolidBrush brush = new SolidBrush(Color.Black);
 
-            RectangleF area = new RectangleF(e.MarginBounds.Left, e.MarginBounds.Top, e.MarginBounds.Width, e.MarginBounds.Height);
-            e.Graphics.DrawString(textBox1.Text, font, brush, area);
+            float yPos = 100;
+            float leftMargin = e.MarginBounds.Left;
+            float topMargin = e.MarginBounds.Top;
+
+            e.Graphics.DrawString(orderSummary, printFont, brush, leftMargin, yPos, new StringFormat());
         }
 
         private string GetSelectedDesertName()
